@@ -44,7 +44,7 @@ services:
       - auth-gw
     restart: always
     ports:
-      - 80:80
+      - 81:81
     deploy:
       replicas: 1
       resources:
