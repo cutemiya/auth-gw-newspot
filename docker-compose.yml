@@ -36,7 +36,7 @@ services:
   bi-service:
     build:
       context: .
-      dockerfile: newspot/Dockerfile
+      dockerfile: bi-service/Dockerfile
     networks:
       - backend
     depends_on:
